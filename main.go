@@ -96,6 +96,7 @@ func main() {
 	dict := make([]map[string]map[string]int, 3) //type map is a hash table, which we call dict cause we come from python. We create a slice of them, in order to have 3
 
 	//Compute 1,2,3 order Shannon frequencies of the provided words (including space) and put them in a map
+	//We currently have no use for 1-grams, so we could avoid to compute them.
 	for n := 0; n < 3; n += 1 {
 		// Inizialize the n map and submaps since nil maps cannot be written to. This is a drawback of using maps of maps
 		// It's simpler to use a switch than to unravel the combinatorial complexity, and probably performs better
