@@ -14,6 +14,7 @@ go build .\main.go
 
 
 TODO
+
 It is possible to trick the program into loops, if an inadeguate statistics is provided.
 
 We could add a sprinkle of creativity (a random kick off frequency) and tune this
